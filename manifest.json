@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+
+  "name": "Amazon Cart CSV exporter",
+  "description": "This extension allows you to export Cart on Amazon cart site (https://www.amazon.com/gp/cart/view.html)",
+  "version": "1.0",
+  "author": "Uxío Fuentefría",
+
+  "page_action": {
+    "default_icon": "icon-19.png",
+    "default_title": "Amazon Cart CSV Exporter"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons" : {
+      "48" : "icon-48.png",
+      "128" : "icon-128.png"
+  },
+  "permissions": [
+    "declarativeContent",
+    "*://amazon.com/*",
+    "*://amazon.co.uk/*",
+    "*://amazon.fr/*",
+    "*://amazon.de/*",
+    "*://amazon.it/*",
+    "*://amazon.nl/*",
+    "*://amazon.es/*",
+    "*://amazon.ie/*",
+    "*://amazon.co.uk/*",
+    "*://amazon.ca/*",
+    "*://amazon.com.mx/*",
+    "*://amazon.com.au/*",
+    "*://amazon.com.br/*",
+    "*://amazon.cn/*",
+    "*://amazon.in/*",
+    "*://amazon.jp/*"
+  ]
+}
